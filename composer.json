@@ -1,0 +1,27 @@
+{
+    "name": "moderntribe/square1-assets",
+    "type": "library",
+    "description": "Asset loading for square one",
+    "license": "GPL-2.0-only",
+    "config": {
+        "vendor-dir": "vendor",
+        "preferred-install": "dist"
+    },
+    "require": {
+        "moderntribe/square1-container": "^4.0.12",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tribe\\Libs\\Assets\\": ""
+        },
+        "files": [
+            "version.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.1-dev"
+        }
+    }
+}
